@@ -20,7 +20,7 @@ System.out.println("Triangle");
 System.out.println("Number of sides: 3");
 }
 }
-public class AbstractClass {
+public class AbstractClass{
 public static void main(String args[]){
 triangle t=new triangle();
 rectangle r=new rectangle();
