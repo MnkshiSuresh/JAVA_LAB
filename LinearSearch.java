@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class LinearSearch{
+public class Main{
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
         System.out.println("enter the number of elements: ");
@@ -21,9 +21,9 @@ public class LinearSearch{
 
 
         if(u==1) {
-            System.out.println("yes");
+            System.out.println("element found at "+i);
         } else {
-            System.out.println("no");
+            System.out.println("element absent");
         }
     }
 }
