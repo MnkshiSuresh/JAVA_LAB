@@ -5,7 +5,6 @@ public class FileHandling{
     public static void main(String[] args){
         try{
             File obj=new File("myFile.txt");
-            
             Scanner s=new Scanner(obj);
             while(s.hasNextLine()){
                 String str=s.nextLine();
@@ -13,7 +12,7 @@ public class FileHandling{
             }s.close();
             }
         catch(FileNotFoundException e){
-            System.out.println("Error occured");
+            System.out.println("Error occured\n");
             e.printStackTrace();
         }
     }
